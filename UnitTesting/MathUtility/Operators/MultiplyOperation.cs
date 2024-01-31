@@ -2,11 +2,11 @@
 
 namespace MathUtility.Operators
 {
-	public class SubtractOperation : IOperator
+	public class MultiplyOperation : IOperator
 	{
 		public double Calculate(double left, double right)
 		{
-			return left - right;
+			return left * right;
 		}
 	}
 }
