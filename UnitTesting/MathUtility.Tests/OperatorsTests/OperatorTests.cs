@@ -1,4 +1,5 @@
 ﻿using MathUtility.Interfaces;
+using MathUtility.Operators;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,8 +19,7 @@ namespace MathUtility.Tests.OperatorsTests
 			IOperator additionOperator = new AdditionOperation();
 
 			// Act
-			
-
+			double result = additionOperator.Calculate(left, right);
 
 			// Assert
 		}
