@@ -4,6 +4,11 @@ using MathUtility.Operators;
 
 namespace MathUtility.Tests.OperatorsTests
 {
+	/*
+	 * Unit tests requriements the following NuGet packages:
+	 * FluentAssertions
+	 * Xunit (should come pre-installed with Visual Studio)
+	 */
 	public class OperatorTests
 	{
 		[Theory]
